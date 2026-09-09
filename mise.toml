@@ -1,6 +1,5 @@
 [tools]
 bun = "latest"
 
-[tasks.dev]
-description = "🎨 Run the HTML and CSS project"
-run = "bun ./**/*.html"
+[shell_alias]
+bun-server = "bun ./**/*.html"
